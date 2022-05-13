@@ -35,7 +35,6 @@ body{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 80px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -97,10 +96,20 @@ address {
     color: var(--primary-text-color)
 }
 /*--------------------hero--------------------*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .hero{
     background-color: #2F303A;
     text-align: center;
-    
+    height: 600px;
     margin-bottom: 94px;
 }
 .hero-title {
@@ -172,6 +181,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0px;
 }
 .about-item{
     width: 370px;
@@ -195,10 +205,10 @@ address {
     display: flex;
     width: 270px;
     height: 368px;
-    padding: 15px;
+    padding: 0px;
 }
 .team-item{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .team-list .team-item:last-child{
     margin-right: 0px;
@@ -263,6 +273,8 @@ address {
     text-align: center;
     color: var(--secondary-text-color);
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 /*---------------work portfolio-----------------*/
 .work-desc{
@@ -281,9 +293,21 @@ color: var(--primary-text-color)
     justify-content: space-between;
     padding-top: 50px;
 }
+.flex-sub{
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color)
+}
+.flex-desc{
+     font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+}
 .flex-item{
     width: 370px;
     height: 404px;
+    margin-bottom: 94px;
 }
 .flex-item:nth-child(3n) {
     margin-right: 0px;
