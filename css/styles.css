@@ -33,6 +33,7 @@ body{
 .conteiner-main-nav {
     display: flex;
     width: 1200px;
+    height: 80px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -109,8 +110,8 @@ address {
 .hero{
     background-color: #2F303A;
     text-align: center;
-    height: 600px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .hero-title {
     padding-top: 200px;
@@ -142,20 +143,20 @@ address {
     cursor: pointer;
 }
 /*------------------work---------------------*/
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .work-list .work-item:last-child {
     margin-right: 0px;
 }
-.work-item {
-    width: 380px;
-}
+
 .work-list {
     display: flex;
     padding-right: 40px;
     width: 1170px;
 }
-.work {
-    margin-bottom: 94px;
-}
+
 .work-subtitle {
     font-size: 14px;
     line-height: 1.14;
@@ -174,8 +175,8 @@ address {
 }
 /*-------------------about------------------*/
 .about {
-    margin-bottom: 94px;
-    height: 386px;
+    
+   margin-bottom: 94px;
 }
 .about-list{
     display: flex;
@@ -192,14 +193,15 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    margin-bottom: 50px;
+    
     text-align: center;
     color: var(--secondary-text-color)
 }
 /*--------------------team--------------------*/
 .team{
-    margin-bottom: 94px;
-    padding-bottom: 10px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 .team-list{
     display: flex;
@@ -250,7 +252,8 @@ address {
 }
 /*-----------------portfolio-----------------*/
 .portfolio {
-    margin-bottom: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .portfolio-button.current {
    background-color: var(--accent-color);
@@ -264,6 +267,8 @@ address {
 }
 .portfolio-buttons-list {
     justify-content: center;
+    padding: 0;
+    padding-bottom: 30px;
 }
 .portfolio-button {
     font-family: inherit;
@@ -291,7 +296,9 @@ color: var(--primary-text-color)
    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 50px;
+    padding: 0;
+    
+    
 }
 .flex-sub{
     font-size: 18px;
@@ -308,6 +315,7 @@ color: var(--primary-text-color)
     width: 370px;
     height: 404px;
     margin-bottom: 94px;
+    border: 1px solid #EEEEEE;
 }
 .flex-item:nth-child(3n) {
     margin-right: 0px;
