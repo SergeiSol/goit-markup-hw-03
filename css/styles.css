@@ -171,7 +171,6 @@ address {
 }
 .work-deskription {
     width: 270px;
-    height: 75px;
 }
 /*-------------------about------------------*/
 .about {
@@ -206,7 +205,6 @@ address {
 .team-list{
     display: flex;
     width: 270px;
-    height: 368px;
     padding: 0px;
 }
 .team-item{
@@ -232,7 +230,6 @@ address {
 /*--------------------footer------------------*/
 .footer{
     background-color: #2F303A;
-    height: 252px;
     padding-top: 65px;
     padding-bottom: 65px;
 }
@@ -268,7 +265,7 @@ address {
 .portfolio-buttons-list {
     justify-content: center;
     padding: 0;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
 }
 .portfolio-button {
     font-family: inherit;
@@ -282,14 +279,14 @@ address {
     cursor: pointer;
 }
 /*---------------work portfolio-----------------*/
-.work-desc{
-font-size: 16px;
-line-height: 1.18;
-color: var(--primary-text-color)
+    .work-desc{
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color)
 }
-.work-deskription{
-font-size: 14px;
-color: var(--primary-text-color)
+    .work-deskription{
+    font-size: 14px;
+    color: var(--primary-text-color)
 }
 /*------------------flex--------------------*/
 .flex-list{
